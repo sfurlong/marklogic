@@ -17,7 +17,7 @@ public class MarkLogicClient {
 
   public void queryMarkLogic() {
     DatabaseClient client =
-      DatabaseClientFactory.newClient("localhost", 8011, "admin", "skitaos1",
+      DatabaseClientFactory.newClient("localhost", 8011, "admin", "marklogic1",
                                       Authentication.DIGEST);
 
     QueryManager queryMgr = client.newQueryManager();
